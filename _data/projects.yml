@@ -1,0 +1,74 @@
+- 
+  id: 'stats-leak'
+  name: 'Are U.K. Economic Data Leaking?'
+  link: 'https://www.wsj.com/graphics/are-uk-economic-data-leaking/'
+  img: /assets/img/stats-leak.png
+  color: '#ffb3bb'
+  start: >
+    <p class="award">Longlisted: Kantar's Information is Beautiful Award</p>
+    <p>Before the public see U.K. economic data, some government employees know the figures.</p>
+    <p>And when the government release numbers, it move markets.</p>
+    <p>But research, revealed by the Wall Street Journal, backs up traders' suspicions: </p>
+    <p>For certain economic indicators, prices drift <em>before</em> the announcement.</p>
+    <p>So someone must be leaking the data!</p>
+  end: >
+    <p>To show these movements, I designed a series of charts using <a href="https://d3js.org">D3.js</a>.</p>
+    <p>Each shows the average drift of price changes before the announcement.</p>
+    <p>We <a href="https://twitter.com/jasonleefrench/status/841696320842825729">recreated</a> the online charts for the print edition of the Wall Street Journal.</p>
+- 
+  id: 'uk-election-2017'
+  name: 'U.K. Election 2017: Live Results'
+  link: 'https://www.wsj.com/graphics/uk-election-2017-live-results/'
+  img: /assets/img/uk-election-2017.png
+  color: '#ffc5f7'
+  start: >
+      <p>It was supposed to be a landslide...</p>
+      <p>I developed an election night dashboard to track results (and the strength of the pound) as they came in.</p>
+      <p>When the BBC announced the shock hung-parliament exit poll, the pound plummeted.</p>
+  end: >
+      <p>Our dashboard provided a view of results as they came in, and a drill-down into who gained seats where.</p>
+      <p>The charts, created with <a href="">D3.js</a>, were also embedded on the WSJ homepage on election night.</p>
+- 
+  id: 'trade-after-brexit'
+  name: 'Trade After Brexit'
+  link: 'http://graphics.wsj.com/trade-after-brexit/'
+  img: /assets/img/trade-after-brexit.png
+  color: '#96ead7'
+  start: > 
+      <p>In 2015, £223 billion worth of British exports – those to the European Union – face no tariff.</p>
+      <p>But if the U.K. doesn't strike a trade deal when it leaves the EU, how much tax could exporters face?</p>
+      <p>And could hipsters <a href="http://graphics.wsj.com/trade-after-brexit/#900640000">end up paying more</a> for instant print cameras?</p>
+      <p>And exactly <a href="http://graphics.wsj.com/trade-after-brexit/#160563000">what was the value</a> of jellyfish exported in 2015?</p>
+  end: >
+      <p>To find out, I scraped thousands of rows in HMRC and WTO databases.</p> 
+      <p>I presented each category's export value and tariff rates in a sharable format.</p>
+      <p>Because of the large amount of data points, SVGs wouldn't cut it. I used the Canvas API to make sure the charts load smoothly.</p>
+- 
+  id: uk-watch
+  name: Measuring the U.K.'s Economic Health
+  link: 'http://graphics.wsj.com/uk-watch/'
+  img: /assets/img/uk-watch.png
+  color: '#92d4f5'
+  start: > 
+      <p>Who'd have thought it – the U.K. has voted to leave the European Union.</p>
+      <p>How will this affect economic indicators?</p>
+  end: > 
+      <p>This dashboard gives both a high-level overview...</p>
+      <p>... And the ability to drill down and take a closer look at the economic indicators.</p>
+      <p>So our reporters can update the data as it comes in, I wrote a Python script that parses a Google spreadsheet to JSON.</p>
+      <p>And we can embed the charts – built using <a href="https://d3js.org/">D3.js</a> – in Wall Street Journal stories.</p>
+- 
+  id: 'three-tribs'
+  name: 'When One Journey Ends, Another Begins for Migrants to Europe'
+  link: 'http://wsj.com/articles/when-one-journey-ends-another-begins-for-migrants-to-europe-1451513033?tesla=y'
+  img: /assets/img/migrants.png
+  color: '#fdf3b8'
+  start: > 
+      <p class='award'>Winner: Society of News Design's Award of Excellence</p>
+      <p>Over two days last year, 13,000 people arrived in Germany seeking asylum.</p>
+      <p>The Wall Street Journal followed six and I helped tell their stories.</p>
+  end: >
+      <p>Working with videographers on the ground, I designed and built bespoke components</p>
+      <p>These included responsive maps built with <a href="http://ai2html.org/">ai2html</a>, showing journeys refugees have to take.</p>
+      <p>And triptics and collages, collections of videos and images that put a human face on the story.</p>
+      <p>The Society of News Design gave the project their Award of Excellence.</p>
