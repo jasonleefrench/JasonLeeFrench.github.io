@@ -27,7 +27,7 @@
       <p>When the BBC announced the shock hung-parliament exit poll, the pound plummeted.</p>
   end: >
       <p>Our dashboard provided a view of results as they came in, and a drill-down into who gained seats where.</p>
-      <p>The charts, created with <a href="">D3.js</a>, were also embedded on the WSJ homepage on election night.</p>
+      <p>The charts, created with <a href="https://d3js.org">D3.js</a>, were also embedded on the WSJ homepage on election night.</p>
 - 
   id: 'trade-after-brexit'
   name: 'Trade After Brexit'
