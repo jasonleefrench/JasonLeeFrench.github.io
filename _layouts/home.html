@@ -5,71 +5,111 @@
   <meta http-equiv="X-UA-Compatible" content="iE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Jason French">
+  <!-- <link rel="icon" href="/assets/img/icons/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/assets/img/icons/favicon.ico" type="image/x-icon" /> -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icons/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/img/icons/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/img/icons/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
   <link href="/assets/css/style.css" rel="stylesheet">
   <title>Jason Lee French</title>
 </head>
 <body>
-<div class="main">
-  <section class="container about">
-    <div class="about-holder">
-      <h2>Hello! My name is Jason</h2>
-      <p>I'm a journalist/web developer/designer</p>
-      <p>I work as a graphics editor at the <a href="https://twitter.com/WSJGraphics">Wall Street Journal</a>.</p>
-      <p>I build <a href='https://www.google.co.uk/search?q="jason+french"+site:wsj.com'>interactive</a> and static graphics</p>
-      <p>I adore html/css/javascript</p>
-      <p>I rock at creating intriguing and delightful user experiences</p>
-      <p>Telling stories is a blast!</p>
-      <hr />
-    </div>
-  </section>
-  <section class="container projects">
-    <div class="projects-container">
-      <div class="content-block">
-        {% for project in site.data.projects %}
-            {% include project.html project=project %}        
-        {% endfor %}
+  <div class="main">
+    <section class="container about">
+      <div class="about-holder">
+        <h2>Hello! My name is Jason</h2>
+        <p>I'm a journalist/web developer/designer</p>
+        <p>I work as a graphics editor at the <a href="https://twitter.com/WSJGraphics">Wall Street Journal</a>.</p>
+        <p>I build <a href='https://www.google.co.uk/search?q="jason+french"+site:wsj.com'>interactive</a> and static graphics (I've listed a few of them below!)</p>
+        <p>I adore html/css/javascript</p>
+        <p>I rock at creating intriguing and delightful user experiences</p>
+        <p>Telling stories is a blast!</p>
+        <hr />
       </div>
-    </div>
-    <hr />
-  </section>
-  <section class="container skills">
-    <div class="text-holder">
-      <h2>Skills and technologies</h2>
+    </section>
+    <section class="container projects">
+      <div class="projects-container">
+        <div class="content-block">
+          {% for project in site.data.projects %}
+          {% include project.html project=project %}        
+          {% endfor %}
+        </div>
+      </div>
+      <hr />
+    </section>
+    <section class="container skills">
+      <div class="text-holder">
+        <h2>Skills and technologies</h2>
+        <ul>
+          <li>HTML – including templating languages (Handlebars, Mustache)</li>
+          <li>CSS – including Sass</li>
+          <li>JavaScript – ES5/ES6/ESNext, jQuery, Vue</li>
+          <li>Git, Unix command line</li>
+          <li>Build tools – Gulp, Grunt, Webpack</li>
+        </ul>
+      </div>
+      <hr />
+    </section>
+    <section class="container contact">
+      <h2>Contact me</h2>
       <ul>
-        <li>HTML – including templating languages: Handlebars, Mustache</li>
-        <li>CSS – including Sass</li>
-        <li>JavaScript – ES5/ES6, jQuery</li>
-        <li>Git</li>
-        <li>Unix command line</li>
-        <li>Build tools – Gulp, Grunt</li>
+        <li><a href="http://twitter.com/jasonleefrench"><img src="/assets/img/icons/twitter.svg" alt="twitter"></a></li>
+        <li><a href="http://facebook.com/jasonleefrench"><img src="/assets/img/icons/facebook.svg" alt="facebook"></a></li>
       </ul>
-    </div>
-    <hr />
-  </section>
-  <section class="container contact">
-    <h2>Contact me</h2>
-    <ul>
-      <li><a href="http://twitter.com/jasonleefrench"><img src="/assets/img/icons/twitter.svg" alt="twitter"></a></li>
-      <li><a href="http://facebook.com/jasonleefrench"><img src="/assets/img/icons/facebook.svg" alt="facebook"></a></li>
-    </ul>
-  </section>
-</div>
-<script>
-  (function(){ 
+    </section>
+  </div>
+  <script>
+  (function(){
+    var colors = [
+      "rgb(85, 239, 196)",
+      "rgb(129, 236, 236)",
+      "rgb(116, 185, 255)",
+      "rgb(162, 155, 254)",
+      "rgb(0, 184, 148)",
+      "rgb(0, 206, 201)",
+      "rgb(9, 132, 227)",
+    ] // https://flatuicolors.com/palette/us
     var images = document.querySelectorAll('.image-holder')
+    var shuddledColors = shuffle(colors)
     for(var i = 0; i < images.length; i++) {
       (function() {
         var image = images[i];
-        var originalBackground = image.style.backgroundColor;
+        var color = shuddledColors[i];
+        image.style.backgroundColor = color;
         image.addEventListener('mouseover', function() {
-          image.style.backgroundColor = originalBackground.replace(')', ', 0.5)')
-            .replace('rgb', 'rgba');
+          image.style.backgroundColor = color.replace(')', ', 0.5)')
+          .replace('rgb', 'rgba');
         });
         image.addEventListener('mouseout', function() {
-          image.style.backgroundColor = originalBackground;
+          image.style.backgroundColor = color;
         });
       })();
+    }
+    function shuffle(array)
+    {
+      var m = array.length, t, i;
+      while (m > 0) {
+        i = Math.floor(Math.random() * m--);
+        t = array[m];
+        array[m] = array[i];
+        array[i] = t;
+      }
+      return array;
     }
   }());
 </script>

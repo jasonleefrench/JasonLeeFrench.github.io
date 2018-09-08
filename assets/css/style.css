@@ -23,8 +23,13 @@ html, body {
     font-size: 1.3em;
     line-height: 1.6em;
     -webkit-font-smoothing: antialiased;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em; 
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  p.date {
+    margin: 5px 0;
+    font-style: italic;
   }
   
   .contact li {
@@ -34,30 +39,14 @@ html, body {
   a:not(.img) {
     color: #000;
     font-weight: bold;
-    text-decoration: none;
     position: relative;
     text-decoration: none; 
   }
   
-  a:not(.img):before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -4px;
-    left: 0;
-    background-color: #000;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0); 
+  a:not(.img):hover {
+    text-decoration: underline;
   }
-  
-  a:not(.active):hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1); 
-  }
-  
+    
   img {
     margin: 0 auto;
     max-width: 50%;
@@ -66,10 +55,10 @@ html, body {
   
   hr {
     margin: 50px auto;
-    width: 50%;
+    width: 25%;
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); 
+    border-top: 1px solid #dedede;
   }
   
   nav {
@@ -122,7 +111,7 @@ html, body {
   
   .container.about {
     text-align: center;
-    height: 100vh; 
+    height: 80vh; 
   }
   
   .about-holder {
@@ -150,12 +139,10 @@ html, body {
     -webkit-transition: background-color .5s linear;
     -ms-transition: background-color .5s linear;
     transition: background-color .5s linear;
+    display: block;
+    margin: 50px 100px;
   }
-  
-  .project {
-    margin: 0 100px;
-  }
-  
+
   .project:last-child hr {
     display: none; 
   }
@@ -166,10 +153,6 @@ html, body {
   
   .desktop-only {
     display: block;
-  }
-  
-  li:nth-child(odd) {
-    font-style: italic;
   }
   
   @media all and (max-width: 991px) {
@@ -195,14 +178,11 @@ html, body {
     }
   
     .image-holder {
-      padding: 50px;
-      background-size: cover; 
+      padding: 150px;
+      background-size: cover;
+      margin: 25px 0;
     }
-    
-    .project {
-      margin: 50px 0;
-    }
-  
+      
     img {
       max-width: 100%; 
     }
