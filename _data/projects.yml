@@ -24,7 +24,7 @@
   start: >
       <p>In the City of London, opinion splits on whether leaving the European Union will be a boon or the end of finance as we know it.</p>
   end: > 
-      <p>The Wall Street Journal interviewed five business people to find out what Brexit means to their businesses.</p>
+      <p>The Wall Street Journal interviewed five business people to find out what Brexit means to them.</p>
       <p>Using reactive JavaScript library <a href="https://rxjs-dev.firebaseapp.com/">RxJS</a>, I put together a package that tracked player state across videos.</p>
       <p>With state tracked, it became easy to add little features to make a beautiful experience for the user – videos pause when out of view and play when they're scrolled to.</p>
 -
