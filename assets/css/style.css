@@ -15,7 +15,7 @@ html, body {
   }
   
   nav {
-    margin: 10px; 
+    margin: 10px;
   }
   
   p, li {
@@ -140,7 +140,7 @@ html, body {
     -ms-transition: background-color .5s linear;
     transition: background-color .5s linear;
     display: block;
-    margin: 50px 100px;
+    margin: 75px 0;
   }
 
   .project:last-child hr {
