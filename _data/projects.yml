@@ -63,18 +63,3 @@
     <p>To show this, I made a game that lets you create a German coalition government for yourself.</p>
   end: >
     <p>It shows which groupings could work well and which parties would never govern together in a clear and engaging way.</p>
--
-  date: 'December 2015'
-  name: 'When One Journey Ends, Another Begins for Migrants to Europe'
-  link: 'http://wsj.com/articles/when-one-journey-ends-another-begins-for-migrants-to-europe-1451513033?tesla=y'
-  img: /assets/img/migrants.png
-  color: 'rgb(9, 132, 227)'
-  start: > 
-      <p class='award'>Winner: Society of News Design's Award of Excellence</p>
-      <p>Over two days last year, 13,000 people arrived in Germany seeking asylum.</p>
-      <p>The Wall Street Journal followed six and I helped tell their stories.</p>
-  end: >
-      <p>Working with videographers on the ground, I designed and built bespoke components.</p>
-      <p>These included responsive maps built with <a href="http://ai2html.org/">ai2html</a>, showing journeys refugees have to take.</p>
-      <p>And triptics and collages, collections of videos and images that put a human face on the story.</p>
-      <p>The Society of News Design gave the project their Award of Excellence.</p>
