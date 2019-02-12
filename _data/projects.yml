@@ -1,6 +1,5 @@
 -
   name: 'Are U.K. Economic Data Leaking?'
-  date: 'March 2017'
   link: 'https://www.wsj.com/graphics/are-uk-economic-data-leaking/'
   img: /assets/img/stats-leak.png
   color: 'rgb(85, 239, 196)'
@@ -16,7 +15,6 @@
     <p>Each shows the average drift of price changes before the announcement.</p>
     <p>We <a href="https://twitter.com/jasonleefrench/status/841696320842825729">recreated</a> the online charts for the print edition of the Wall Street Journal.</p>
 -
-  date: 'September 2018'
   name: "A City Divided: London's Tribes of Finance Face Off"
   link: 'https://www.wsj.com/graphics/london-tribes-of-finance-face-off/'
   img: '/assets/img/london-tribes-of-finance-face-off.png'
@@ -29,7 +27,6 @@
       <p>With state tracked, it became easy to add little features to make a beautiful experience for the user – videos pause when out of view and play when they're scrolled to.</p>
 -
   name: 'The Price of Brexit: Two Years After the Vote'
-  date: 'June 2018'
   link: 'https://www.wsj.com/graphics/the-price-of-brexit-two-years-after-the-vote/'
   img: '/assets/img/price-of-brexit.png'
   color: 'rgb(162, 155, 254)'
@@ -41,7 +38,6 @@
       <p>This gives both a high-level overview and the ability to drill down and take a closer look at the economic indicators.</p>
 -
   name: 'U.K. Election 2017: Live Results'
-  date: 'June 2017'
   link: 'https://www.wsj.com/graphics/uk-election-2017-live-results/'
   img: /assets/img/uk-election-2017.png
   color: 'rgb(0, 184, 148)'
@@ -54,7 +50,6 @@
       <p>The charts, created with <a href="https://d3js.org">D3.js</a>, were also embedded on the WSJ homepage on election night.</p>
 -
   name: 'Build a German Government'
-  date: 'September 2017'
   link: 'https://www.wsj.com/graphics/build-a-german-government/'
   img: /assets/img/gergov.png
   color: 'rgb(0, 206, 201)'
