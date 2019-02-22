@@ -127,12 +127,17 @@ html, body {
     margin: 0 auto;
   }
   
+  .project h2 span {
+    display: block;
+  }
+  
   .tech {
     font-style: italic; 
   }
   
   .image-holder {
-    padding: 45vh;
+    padding: 35vh;
+    max-width: 650px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 50%;
@@ -140,7 +145,7 @@ html, body {
     -ms-transition: background-color .5s linear;
     transition: background-color .5s linear;
     display: block;
-    margin: 75px 0;
+    margin: 75px auto;
   }
 
   .project:last-child hr {
@@ -238,7 +243,7 @@ html, body {
       padding: 0;
       padding-bottom: 100%;
       background-position-y: 100%;
-      height: 45vh;
+      height: 35vh;
     }
   }
   
