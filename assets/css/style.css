@@ -184,20 +184,15 @@ html, body {
   
     .image-holder {
       padding: 150px;
-      background-size: cover;
       margin: 25px 0;
+      max-width: 100%;
     }
       
     img {
       max-width: 100%; 
     }
-  
-    .image-holder {
-      height: 75vh;
-    }
-  
-    .container {
 
+    .container {
       max-width: 100%; 
     }
     
@@ -231,11 +226,14 @@ html, body {
     .contact li:last-child {
       margin-right: 0;
     }
-    
-    .text-holder, .project h2 {
+
+  }
+  
+  @media only screen and (max-width: 661px) {
+    .about-holder, .text-holder, .project h2 {
       margin: 0 20px;
     }
-  
+
   }
   
   @media only screen and (max-width: 991px) and (orientation: landscape) {
@@ -243,7 +241,11 @@ html, body {
       padding: 0;
       padding-bottom: 100%;
       background-position-y: 100%;
-      height: 35vh;
+      height: auto;
+      margin: 0 20px;
+    }
+    .text-holder {
+      max-width: none;
     }
   }
   
