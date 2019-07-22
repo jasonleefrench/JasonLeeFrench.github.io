@@ -74,6 +74,7 @@
   </div>
   <script>
   (function(){
+    var webPSupported = canUseWebP()
     var colors = [
       "rgb(85, 239, 196)",
       "rgb(129, 236, 236)",
@@ -84,23 +85,26 @@
       "rgb(9, 132, 227)",
     ] // https://flatuicolors.com/palette/us
     var images = document.querySelectorAll('.image-holder')
-    var shuddledColors = shuffle(colors)
+    var shuffledColors = shuffle(colors)
     for(var i = 0; i < images.length; i++) {
       (function() {
         var image = images[i];
-        var color = shuddledColors[i];
-        image.style.backgroundColor = color;
+        var color = shuffledColors[i];
+        var style = image.style;
+        style.backgroundColor = color;
         image.addEventListener('mouseover', function() {
-          image.style.backgroundColor = color.replace(')', ', 0.5)')
-          .replace('rgb', 'rgba');
+          style.backgroundColor = color.replace(')', ', 0.5)')
+            .replace('rgb', 'rgba');
         });
         image.addEventListener('mouseout', function() {
-          image.style.backgroundColor = color;
+          style.backgroundColor = color;
         });
+        if(webPSupported) {
+          style.backgroundImage = style.backgroundImage.replace('png', 'webp');
+        }
       })();
     }
-    function shuffle(array)
-    {
+    function shuffle(array) {
       var m = array.length, t, i;
       while (m > 0) {
         i = Math.floor(Math.random() * m--);
@@ -109,6 +113,13 @@
         array[i] = t;
       }
       return array;
+    }
+    function canUseWebP() { //https://stackoverflow.com/a/27232658
+      var elem = document.createElement('canvas');
+      if (!!(elem.getContext && elem.getContext('2d'))) {
+        return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+      }
+      return false;
     }
   }());
 </script>
