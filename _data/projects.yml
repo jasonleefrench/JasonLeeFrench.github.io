@@ -1,7 +1,7 @@
 -
   name: 'How Brexit Has Affected Markets'
   link: 'https://www.wsj.com/graphics/what-brexit-politics-mean-for-markets/'
-  img: '/assets/img/brexit-markets.png'
+  img: '/assets/img/brexit-markets.webp'
   color: 'rgb(162, 155, 254)'
   start: >
       <p>The U.K. is inching closer to Brexit.</p>
@@ -12,7 +12,7 @@
 -
   name: "A City Divided: London's Tribes of Finance Face Off"
   link: 'https://www.wsj.com/graphics/london-tribes-of-finance-face-off/'
-  img: '/assets/img/london-tribes-of-finance-face-off.png'
+  img: '/assets/img/london-tribes-of-finance-face-off.webp'
   color: 'rgb(129, 236, 236)'
   start: >
       <p>In the City of London, opinion splits on whether leaving the European Union will be a boon or the end of finance as we know it.</p>
@@ -23,7 +23,7 @@
 -
   name: "Mapping Brexit: <span>Where the Finance Jobs are Heading</span>"
   link: 'https://www.wsj.com/graphics/mapping-brexit-where-the-finance-jobs-are-heading'
-  img: '/assets/img/brexodus.png'
+  img: '/assets/img/brexodus.webp'
   color: 'rgb(129, 236, 236)'
   start: >
       <p>Many banks and insurance companies are making plans to ensure they can continue business if the U.K. leaves the EU on March 29.</p><p>But where will they go?</p>
@@ -33,7 +33,7 @@
 -
   name: 'What a No-Deal Brexit Could Mean for Trade With the EU'
   link: 'https://www.wsj.com/graphics/what-a-no-deal-brexit-could-mean-for-trade-with-the-eu/'
-  img: /assets/img/trade-after-brexit.png
+  img: /assets/img/trade-after-brexit.webp
   color: 'rgb(85, 239, 196)'
   start: >
     <p>If the U.K. leaves the EU without a deal, tariffs for goods would default to World Trade Organization levels.</p>
@@ -46,7 +46,7 @@
 -
   name: 'U.K. Election 2017: Live Results'
   link: 'https://www.wsj.com/graphics/uk-election-2017-live-results/'
-  img: /assets/img/uk-election-2017.png
+  img: /assets/img/uk-election-2017.webp
   color: 'rgb(0, 184, 148)'
   start: >
       <p>It was supposed to be a landslide...</p>
@@ -58,7 +58,7 @@
 -
   name: 'Are U.K. Economic Data Leaking?'
   link: 'https://www.wsj.com/graphics/are-uk-economic-data-leaking/'
-  img: /assets/img/stats-leak.png
+  img: /assets/img/stats-leak.webp
   color: 'rgb(85, 239, 196)'
   start: >
     <p class="award">Longlisted: Kantar's Information is Beautiful Award</p>
@@ -74,7 +74,7 @@
 -
   name: 'Build a German Government'
   link: 'https://www.wsj.com/graphics/build-a-german-government/'
-  img: /assets/img/gergov.png
+  img: /assets/img/gergov.webp
   color: 'rgb(0, 206, 201)'
   start: >
     <p>Creating a working government in Germany is a bit like hearding cats.</p>
